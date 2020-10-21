@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Rotation" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Rotation with Constant Angular Acceleration" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• The rotational formulas have the same form as the straight-line formulas.&#13;&#13;• All results are only valid when the angular acceleration is constant. Do not try to apply non-constant problems." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle2" text="Relating Linear and Angular Kinematics" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content2" text="• Linear Speed in Rigid-Body Rotation&#13;○ The farther a point is from the axis, the greater its linear speed. The direction of the linear velocity vector is tangent to the circular path at each point." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle3" text="Energy in Rotational Motion" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content3" text="• A rotating rigid body consists of mass in motion so it has kinetic energy.&#13;&#13;• This kinetic energy is the moment of inertia and it depends on the body’s mass and on how it’s distributed.&#13;&#13;• The SI unit of I is the kilogram-meter^2 (kg ∙ m^2)&#13;&#13;• The greater moment of inertia, the greater Kinetic energy of a rigid body rotating with a given angular speed." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle4" text="Parallel-Axis Theorem" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content4" text="• There is a simple relationship, called the parallel-axis theorem, between the moment of inertia of a body about an axis through its center of mass and the moment of inertia about any other axis parallel to the original axis." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="prevButtonL6" onAction="#displayLesson6" text="Previous Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

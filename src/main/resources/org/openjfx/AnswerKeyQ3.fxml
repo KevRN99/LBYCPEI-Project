@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="1080.0" prefWidth="1920.0" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.QuizMenuController">
+    <children>
+        <Label id="title" text="Answer Key for Quiz 3" textAlignment="JUSTIFY" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="20.0" />
+            </font></Label>
+        <Label id="answer1" text="1. inelastic" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer2" text="2. mass * velocity" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer3" text="3. impulse" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer4" text="4. Presence of interferences" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer5" text="5. Doubles" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer6" text="6. Rigid Body" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer7" text="7. The same as degrees" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer8" text="8. Meters per second" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer9" text="9. rad/s^2" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Label id="answer10" text="10. Sphere" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="15.0" />
+            </font></Label>
+        <Button fx:id="returnToQMButton" onAction="#switchToQuizMenu" text="Return to Quiz Menu">
+            <font>
+                <Font name="Century Gothic Bold" size="12.0" />
+            </font></Button>
+        <Label />
+        <Label />
+        <Label />
+        <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

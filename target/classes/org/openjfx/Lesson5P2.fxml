@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Impulse and Momentum" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Conservation of Momentum and Collisions" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• Conservation of momentum: If the vector sum of the external forces on a system is zero, the total momentum of the system is constant.&#13;&#13;• When applying conservation of momentum, momentum is a vector.&#13;&#13;• Use vector addition to add momenta.&#13;&#13;• For any system, the forces that the particles of the system exert on each other are called internal forces.&#13;&#13;• Forces exerted on any part of the system by some object outside it are called external forces.&#13;&#13;• There are no external forces; when this is the case, we have an isolated system.&#13;&#13;• If the forces between the bodies are also conservative, so no mechanical energy is lost or gained in the collision, the total kinetic energy of the system is the same after the collision as before. Such a collision is called an elastic collision.&#13;&#13;• A collision in which the total kinetic energy after the collision is less than before the collision is called an inelastic collision.&#13;&#13;• An inelastic collision in which the colliding bodies stick together and move as one body after the collision is called a completely inelastic collision.&#13;&#13;• Classifying collisions:&#13;○ A collision in which kinetic energy is conserved is called elastic.&#13;○ A collision in which the total kinetic energy decreases is called inelastic.&#13;○ When the two bodies have a common final velocity, we say that the collision is completely inelastic." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="prevButtonL4" onAction="#displayLesson5" text="Previous Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

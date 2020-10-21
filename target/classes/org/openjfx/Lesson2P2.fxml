@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Kinematics" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Projectile Motion" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• Projectile - any body that is given an initial velocity and then follows a path determined entirely by the effects of gravitational acceleration and air resistance.&#13;&#13;• The path followed by a projectile is called its trajectory.&#13;&#13;• Projectile motion is always confined to a vertical plane determined by the direction of the initial velocity.&#13;&#13;• This is because the acceleration due to gravity is purely vertical; gravity can’t accelerate the projectile sideways. Thus projectile motion is two-dimensional." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="prevButtonL2" onAction="#displayLesson2" text="Previous Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

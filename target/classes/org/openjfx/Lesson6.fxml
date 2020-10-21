@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Rotation" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Rigid Body" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• It’s an idealized model which is assumed to have a perfectly definite and unchanging shape and size.&#13;&#13;• Any activity that requires muscular or mental effort.&#13;&#13;• It is one where all particles maintain their relative position (as the body rotates, all particles move but relative positions don't change.&#13;&#13;• Rotational Kinematics - describes the rotational motion." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle2" text="Angular Velocity and Acceleration" textAlignment="JUSTIFY" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content2" text="• Fixed Axis - an object that spins in the same place. (xy-plane)&#13;○ e.g. - objects on the rim of the tire go around the same place over and over again.&#13;&#13;• Angular Coordinate - The angular coordinate of a rigid body can be positive (+) or negative (-).&#13;○ Counter-clockwise direction from x-axis = (+)&#13;○ Clockwise direction from x-axis = (-)&#13;&#13;• Units of Angles&#13;○ When measuring angles, Radians are more naturally used compared to degrees.&#13;○ 1 rad = angle subtended at the center of a circle by an arc with a length equal to the radius of the circle.&#13;○ One complete revolution is 360° = 2π radians.&#13;&#13;• Angular Velocity&#13;○ The angular velocity can be positive or negative, depending on the direction in which the rigid body is rotating.&#13;○ Angular speed is the magnitude of angular velocity (never negative).&#13;○ At any instance, every part of a rotating rigid body has the same angular velocity.&#13;○ Angular velocity is defined as a vector whose direction is given by the right-hand rule.&#13;&#13;• Angular Acceleration&#13;○ A rigid body whose angular velocity changes has an angular acceleration.&#13;○ Usual unit is rad/s^2" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="nextButtonL6" onAction="#displayLesson6Part2" text="Next Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

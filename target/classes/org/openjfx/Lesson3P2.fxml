@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Dynamics" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Newton’s Second law" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• Law:  If a net external force acts on a body, the body accelerates. The direction of acceleration is the same as the direction of the net force. The mass of the body times the acceleration vector of the body equals the net force vector.&#13;&#13;• Mass - is a quantitative measure of inertia the greater a body’s mass, the more the body “resists” being accelerated.&#13;&#13;• The SI unit of mass is the kilogram.&#13;&#13;• 1 newton = (1 kilogram) (1 meter per second squared)." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle2" text="Newton’s Third law" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content2" text="• Law:  If body A exerts a force on body B (an “action”), then body B exerts a force on body A (a “reaction”). These two forces have the same magnitude but are opposite in direction. These two forces act on different bodies.&#13;&#13;• In the statement of Newton’s third law, “action” and “reaction” are the two opposite forces.&#13;&#13;• A body that has pulling forces applied at its ends is said to be in tension.&#13;&#13;• Tension at any point along the rope is the magnitude of the force acting at that point." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="prevButtonL3" onAction="#displayLesson3" text="Previous Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

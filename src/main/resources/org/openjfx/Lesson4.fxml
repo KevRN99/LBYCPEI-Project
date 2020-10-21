@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Work, Energy and Power" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Work" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• Work - it is the measure of energy transfer that occurs when an object is moved over a distance by an external force at least part of which is applied in the direction of the displacement.&#13;&#13;• Any activity that requires muscular or mental effort.&#13;&#13;• Total work done on a particle by all forces that act on it equals the change in its kinetic energy—a quantity that’s related to the particle’s mass and speed.&#13;&#13;• In each case you do work by exerting a force on a body while that body moves from one place to another—that is, undergoes a displacement.&#13;&#13;• Weight - The gravitational force that the earth exerts on your body.&#13;&#13;• You do more work if the force is greater or if the displacement is greater.&#13;&#13;• The work W done by this constant force under these circumstances as the product of the force magnitude F and the displacement magnitude s.&#13;&#13;• The SI unit of work is the joule.&#13;&#13;• When the force has a component in the same direction as the displacement  is positive and the work W is positive.&#13;&#13;• When the force has a component opposite to the displacement is negative and the work is negative.&#13;&#13;• When the force is perpendicular to the displacement, the work done by the force is zero.&#13;&#13;• Formula of work: W=Fd (Force times displacement) (constant force in direction of straight-line displacement)&#13;&#13;• Displacement - change of position over time." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle2" text="Energy" textAlignment="JUSTIFY" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content2" text="• Energy - it is a measurement of the ability of something to do work.Energy can be stored and measured in many forms. energy is never really destroyed. It is just transferred from one form to another. Its standard unit is Joules (J) but it can also be measured in calories.&#13;&#13;• Kinetic Energy&#13;○ Like work, the kinetic energy of a particle is a scalar quantity.&#13;○ ½ m/v^2&#13;○ Kinetic energy can never be negative, and it is zero only when the particle is at rest.&#13;○ Kinetic energy of a particle is equal to the total work that was done to accelerate it from rest to its present speed." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="nextButtonL4" onAction="#displayLesson4Part2" text="Next Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

@@ -1,0 +1,23 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.layout.VBox?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.geometry.Insets?>-->
+
+<!--<?import javafx.scene.text.Font?>-->
+<!--<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.QuizMenuController">-->
+<!--    <children>-->
+<!--        <Label id="title" text="Lessons Menu" textAlignment="JUSTIFY" wrapText="true">-->
+<!--            <font>-->
+<!--                <Font name="Century Gothic Bold" size="20.0" />-->
+<!--            </font></Label>-->
+<!--        <Button fx:id="quiz1Button" text="Units, Physical Quantities and Vectors and Kinematics" onAction="#displayQuiz1" />-->
+<!--        <Button fx:id="quiz2Button" text="Dynamics and Work, Energy and Power" onAction="#displayQuiz2" />-->
+<!--        <Button fx:id="quiz3Button" text="Impulse and Momentum and Rotation" onAction="#displayQuiz3" />-->
+<!--        <Button fx:id="returnToMMButton" text="Return to Main Menu" onAction="#displayMainMenu" />-->
+<!--    </children>-->
+<!--    <padding>-->
+<!--        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />-->
+<!--    </padding>-->
+<!--</VBox>-->

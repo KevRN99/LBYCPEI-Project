@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.QuizMenuController">
+    <children>
+        <Label id="title" text="Units, Physical Quantities, Vectors, and Kinematics Quiz" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="question1" text="1. Physics is a/an __________ science." wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+      <GridPane alignment="CENTER_RIGHT">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <RadioButton id="choice1q1" mnemonicParsing="false" text="physical">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="choiceQ1" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton id="choice2q1" mnemonicParsing="false" text="social" toggleGroup="$choiceQ1" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton id="choice3q1" mnemonicParsing="false" text="natural" toggleGroup="$choiceQ1" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton id="choice4q1" mnemonicParsing="false" text="experimental" toggleGroup="$choiceQ1" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </GridPane>
+        <Label id="question2" text="2. It is an explanation of natural phenomena based on observation and accepted fundamental principles. " wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <GridPane alignment="CENTER_RIGHT">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <RadioButton id="choice1q2" mnemonicParsing="false" text="Hypothesis">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="choiceQ2" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton id="choice2q2" mnemonicParsing="false" text="Theory" toggleGroup="$choiceQ2" GridPane.columnIndex="1">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton id="choice3q2" mnemonicParsing="false" text="Intelligent Guess" toggleGroup="$choiceQ2" GridPane.columnIndex="2">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton id="choice4q2" mnemonicParsing="false" text="Inference" toggleGroup="$choiceQ2" GridPane.columnIndex="3">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+            </children>
+        </GridPane>
+        <Label id="question3" text="3. What is the standard unit (SI) of mass?" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <GridPane alignment="CENTER_RIGHT">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <RadioButton id="choice1q3" mnemonicParsing="false" text="Grams (g)">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="choiceQ3" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton id="choice2q3" mnemonicParsing="false" text="Newtons (N)" toggleGroup="$choiceQ3" GridPane.columnIndex="1">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton id="choice3q3" mnemonicParsing="false" text="Kilograms (kg)" toggleGroup="$choiceQ3" GridPane.columnIndex="2">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton id="choice4q3" mnemonicParsing="false" text="Metric ton (t)" toggleGroup="$choiceQ3" GridPane.columnIndex="3">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+            </children>
+        </GridPane>
+        <Label id="question4" text="4. Which of the following is a vector quantity?" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <GridPane alignment="CENTER_RIGHT">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <RadioButton id="choice1q4" mnemonicParsing="false" text="Displacement">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="choiceQ4" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton id="choice2q4" mnemonicParsing="false" text="Mass" toggleGroup="$choiceQ4" GridPane.columnIndex="1">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton id="choice3q4" mnemonicParsing="false" text="Area" toggleGroup="$choiceQ4" GridPane.columnIndex="2">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton id="choice4q4" mnemonicParsing="false" text="Density" toggleGroup="$choiceQ4" GridPane.columnIndex="3">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+            </children>
+        </GridPane>
+        <Label id="question5" text="5. What is the term for two vectors that have the same direction?" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <GridPane alignment="CENTER_RIGHT">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <RadioButton id="choice1q5" mnemonicParsing="false" text="Perpendicular Vectors">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="choiceQ5" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton id="choice2q5" mnemonicParsing="false" text="Oblique Vectors" toggleGroup="$choiceQ5" GridPane.columnIndex="1">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton id="choice3q5" mnemonicParsing="false" text="Anti-parallel Vectors" toggleGroup="$choiceQ5" GridPane.columnIndex="2">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton id="choice4q5" mnemonicParsing="false" text="Parallel Vectors" toggleGroup="$choiceQ5" GridPane.columnIndex="3">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </RadioButton>
+            </children>
+        </GridPane>
+        <Button fx:id="nextButtonQuiz1" onAction="#displayQuiz1Part2" text="Next Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToQMButton" onAction="#switchToQuizMenu" text="Return to Quiz Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Kinematics" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Displacement, Time, and Average Velocity" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• Velocity - describes the rate of change of position with time.&#13;&#13;• Average Velocity -  vector whose x-component is the change in x divided by the time interval.&#13;&#13;• Displacement - change in the coordinate x." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle2" text="Instantaneous Velocity" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content2" text="• Instantaneous Velocity -  the velocity at a specific instant of time or specific point along the path.&#13;&#13;• Speed -  distance traveled divided by time, on either an average or an instantaneous basis.&#13;&#13;• Instantaneous speed, for which we use the symbol v with no subscripts, measures how fast a particle is moving; instantaneous velocity measures how fast and in what direction it’s moving." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle3" text="Average and Instantaneous Acceleration" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content3" text="• Acceleration describes the rate of change of velocity with time.&#13;&#13;• Like velocity, acceleration is a vector quantity.&#13;&#13;• Instantaneous Acceleration - following the same procedure that we used to define instantaneous velocity." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle4" text="Freely Falling Bodies" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content4" text="• The most familiar example of motion with (nearly) constant acceleration is a body falling under the influence of the earth’s gravitational attraction. Such motion has held the attention of philosophers and scientists since ancient times.&#13;&#13;• The idealized motion that results under all of these assumptions is called free fall.&#13;&#13;• The constant acceleration of a freely falling body is called the acceleration due to gravity, and we denote its magnitude with the letter g.&#13;&#13;• g = 9.80 m/s^2 = 980 cm/s^2 = 32.2 ft/s^2 (approximate value near the earth’s surface)&#13;&#13;• g is always a positive number because g is the magnitude of a vector quantity, it is always a positive number." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="nextButtonL2" onAction="#displayLesson2Part2" text="Next Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

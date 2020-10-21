@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Dynamics" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Force and Interactions" textAlignment="LEFT" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• Force - is an interaction between two bodies or between a body and its environment (the force that one body exerts on a second body).&#13;&#13;• Force is a vector quantity.&#13;&#13;• Contact Force - force involves direct contact between two bodies, such as a push or pull that you exert on an object with your hand.&#13;&#13;• Three common types of contact forces:&#13;○ Normal force -  force always acts perpendicular.&#13;○ Friction force - force acts parallel to the surface, in the direction that opposes sliding.&#13;○ Tension force - pulling force exerted by a stretched rope or cord on an object to which it’s attached.&#13;&#13;• Weight - The gravitational force that the earth exerts on your body.&#13;&#13;• SI unit of the magnitude of force is the newton, abbreviated N." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle2" text="Mass and Weight" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content2" text="• Mass characterizes the inertial properties of a body.&#13;&#13;• Weight, on the other hand, is a force exerted on a body by the pull of the earth.&#13;&#13;• Mass and weight are related: Bodies that have large mass also have large weight." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle3" text="Newton’s First law" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content3" text="• Inertia - the tendency of a body to keep moving once it is set in motion.&#13;&#13;• Law: A body acted on by no net force has a constant velocity (which may be zero) and zero acceleration.&#13;&#13;• When a body is either at rest or moving with constant velocity we say that the body is in equilibrium.&#13;&#13;• For a body to be in equilibrium, it must be acted on by no forces, or by several forces such that their vector sum—that is, the net force—is zero." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="nextButtonL3" onAction="#displayLesson3Part2" text="Next Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

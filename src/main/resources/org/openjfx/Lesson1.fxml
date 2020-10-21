@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Units, Physical Quantities and Vectors" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Nature of Physics" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• Physics is an experimental science. Physicists observe the phenomena of nature and try to find patterns that relate these phenomena. These patterns are called physical theories or, when they are very well established and widely used, physical laws or principles.&#13;&#13;• Theory - it is not just a random thought or an unproven concept. Rather, a theory is an explanation of natural phenomena based on observation and accepted fundamental principles." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle2" text="Standards and Units" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content2" text="• The system of units used by scientists and engineers around the world is commonly called “the metric system,” but since 1960 it has been known officially as the International System, or SI (the abbreviation for its French name, Système International)&#13;&#13;• Standard Units:&#13;○ Time: seconds (s)&#13;○ Length: meters (m)&#13;○ Mass: kilograms (kg)&#13;&#13;• The British System:&#13;○ These units are used in only the United States and a few other countries, and in most of these they are being replaced by SI units.&#13;○ British units are now officially defined in terms of SI units, as follows:&#13;◘ Length: 1 inch = 2.54 cm (exactly)&#13;◘ Force: 1 pound = 4.448221615260 newtons (exactly)&#13;○ British units are used in mechanics and thermodynamics only; there is no British system of electrical units" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Label id="subtitle3" text="Vectors and its Addition and Subtraction" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content3" text="• Physical quantities can be described completely by a single number with a unit. But many other important quantities in physics have a direction associated with them and cannot be described by a single number.&#13;&#13;• Physical quantity descriptions:&#13;○ Scalar quantity - magnitude only&#13;○ Vector quantity - magnitude and direction&#13;&#13;• Displacement - simplest vector quantity. It is a change in the position of an object.&#13;&#13;• Parallel vectors -  two vectors have the same direction&#13;○ If they have the same magnitude and the same direction, they are equal&#13;&#13;• Negative of a vector - vectors having the same magnitude as the original vector but the opposite direction.&#13;&#13;• Antiparallel - when two vectors have opposite directions whether their magnitudes are the same or not.&#13;&#13;• Vector Addition and Subtraction&#13;○ Suppose a particle undergoes a displacement A followed by a second displacement B. The final result is the same as if the particle had started at the same initial point and undergone a single displacement C.&#13;○ Displacement C is called the resultant.&#13;&#13;• Unit Vectors&#13;○ It is a vector that has a magnitude of 1, with no units. Its only purpose is to point—that is, to describe a direction in space.&#13;○ Always include a caret, or “hat” in the symbol for a unit vector to distinguish it from ordinary vectors whose magnitude may or may not be equal to 1." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

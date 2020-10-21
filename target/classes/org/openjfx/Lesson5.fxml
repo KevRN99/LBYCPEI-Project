@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.LessonMenuController">
+    <children>
+        <Label id="title" text="Impulse and Momentum" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+        <Label id="subtitle1" text="Momentum and Impulse" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic Bold" size="15.0" />
+            </font></Label>
+        <Label id="content1" text="• The momentum (p) of a particle is a vector quantity equal to the product of the particle’s mass (m) and velocity (v).&#13;&#13;• Newton’s second law says that the net force on a particle is equal to the rate of change of the particle’s momentum.&#13;&#13;• The momentum of a particle is the product of its mass and its velocity: p=mv&#13;&#13;• Newton’s second law can be written in terms of momentum.&#13;&#13;• Impulse of a Force - is the product of the force and the time interval during which it acts.&#13;&#13;• Impulse-momentum theorem: The change in momentum of a particle during a time interval is equal to the impulse of the net force acting on the particle during that interval.&#13;&#13;• Changes in momentum depend on the time over which the net force acts, but changes in kinetic energy depends on the distance over which the net force acts.&#13;&#13;• The total momentum of a system of particles is the vector sum of the momenta of the individual particles.&#13;&#13;• No external forces act on the isolated system consisting of the two astronauts shown below, so the total momentum of this system is conserved." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Century Gothic" size="12.0" />
+            </font></Label>
+        <Button fx:id="nextButtonL5" onAction="#displayLesson5Part2" text="Next Page">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Button fx:id="returnToLMButton" onAction="#switchToLessonMenu" text="Return to Lesson Menu">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label />
+      <Label />
+      <Label />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

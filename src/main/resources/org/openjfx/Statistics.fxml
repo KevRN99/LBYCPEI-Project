@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.QuizMenuController">
+<children>
+    <Label layoutX="318.0" layoutY="69.0" text="Statistics" textAlignment="CENTER" AnchorPane.bottomAnchor="476.0">
+        <font>
+            <Font name="Droid Sans Bold" size="40.0" />
+        </font></Label>
+    <Button fx:id="returnToQMButton" contentDisplay="CENTER" layoutX="315.0" layoutY="526.0" onAction="#switchToQuizMenu" text="Return to Quiz Menu" textAlignment="CENTER">
+        <font>
+            <Font name="Roboto Light" size="16.0" />
+        </font></Button>
+    <Label layoutX="361.0" layoutY="173.0" text="Quiz 2">
+        <font>
+            <Font name="Roboto Light" size="36.0" />
+        </font></Label>
+    <Label layoutX="119.0" layoutY="173.0" text="Quiz 1">
+        <font>
+            <Font name="Roboto Light" size="36.0" />
+        </font></Label>
+    <Label layoutX="91.0" layoutY="360.0" prefWidth="78.0" text="Score: ">
+        <font>
+            <Font name="Roboto Light" size="26.0" />
+        </font></Label>
+    <Label layoutX="333.0" layoutY="360.0" text="Score: ">
+        <font>
+            <Font name="Roboto Light" size="26.0" />
+        </font></Label>
+    <Label layoutX="76.0" layoutY="233.0" text="Lessons 1 &amp; 2">
+        <font>
+            <Font name="Roboto Light" size="30.0" />
+        </font></Label>
+    <Label layoutX="315.0" layoutY="233.0" text="Lessons 3 &amp; 4">
+        <font>
+            <Font name="Roboto Light" size="30.0" />
+        </font>
+    </Label>
+    <Label layoutX="596.0" layoutY="173.0" text="Quiz 2">
+        <font>
+            <Font name="Roboto Light" size="36.0" />
+        </font>
+    </Label>
+    <Label layoutX="553.0" layoutY="233.0" text="Lessons 5 &amp; 6">
+        <font>
+            <Font name="Roboto Light" size="30.0" />
+        </font>
+    </Label>
+    <Label layoutX="568.0" layoutY="360.0" text="Score: ">
+        <font>
+            <Font name="Roboto Light" size="26.0" />
+        </font>
+    </Label>
+    <Label layoutX="675.0" layoutY="360.0">
+        <font>
+            <Font name="Roboto Light" size="26.0" />
+        </font>
+    </Label>
+      <TextField fx:id="setScore1" layoutX="169.0" layoutY="351.0" prefHeight="25.0" prefWidth="61.0">
+         <font>
+            <Font name="Roboto Light" size="26.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="setScore2" layoutX="411.0" layoutY="351.0" prefHeight="25.0" prefWidth="61.0">
+         <font>
+            <Font name="Roboto Light" size="26.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="setScore3" layoutX="646.0" layoutY="351.0" prefHeight="53.0" prefWidth="61.0">
+         <font>
+            <Font name="Roboto Light" size="26.0" />
+         </font>
+      </TextField>
+</children>
+<padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+</padding>
+</AnchorPane>
